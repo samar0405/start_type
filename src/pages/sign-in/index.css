@@ -1,0 +1,23 @@
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+}
+
+.position-relative .btn {
+  right: 10px;
+}
